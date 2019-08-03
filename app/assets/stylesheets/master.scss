@@ -4,7 +4,7 @@
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
+  background: image_url('blue.jpg');
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
@@ -47,4 +47,6 @@ body {
 .a1 {
   background: rgba(0, 0, 0, 0.5);
   color: white;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
