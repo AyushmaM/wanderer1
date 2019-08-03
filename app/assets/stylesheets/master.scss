@@ -10,6 +10,7 @@
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  color: #2309BE;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,6 +24,7 @@ body {
 }
 
 .navbar {
+ font-weight: 200;
    box-shadow: 0px 1px 3px #2a2a2a;
 }
 
@@ -31,4 +33,13 @@ body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 380;
   letter-spacing: -0.3px;
+}
+
+.tree {
+   background: image_url('tree.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
 }
