@@ -2,11 +2,10 @@
 <br />
 
 <% @ones.each do |one| %>
-  <div>
-    <h1><%= one.name %></h1><br />
-    <i><%= one.address %></i><br />
+   <div class="booyah-box col-10 offset-1">
+    <h1><%= one.name %></h1>
+    <i><%= one.address %></i><br /><br />
     <p><%= one.description %></p><br />
   </div>
 
-  <hr />
 <% end %>
