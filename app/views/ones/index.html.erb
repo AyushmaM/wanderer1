@@ -1,1 +1,9 @@
-<h1>Welcome</h1>
+<% @ones.each do |one| %>
+  <div>
+    <h1><%= one.name %></h1><br />
+    <i><%= one.address %></i><br />
+    <p><%= one.description %></p><br />
+  </div>
+
+  <hr />
+<% end %>
